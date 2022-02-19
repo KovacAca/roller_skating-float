@@ -193,3 +193,42 @@ modeli
 .modeli article:nth-child(2) {
   border-bottom: 2px solid var(--lightGray);
 }
+/***************
+blog
+***************/
+.blog {
+  margin-top: 50px;
+  text-align: center;
+}
+.blog img {
+  width: 100%;
+}
+.blog article {
+  width: 47%;
+  background: var(--white);
+  border-radius: 10px;
+  /* ne radi border radius preko slike, moram: */
+  overflow: hidden;
+  box-shadow: var(--boxShadow);
+}
+.blog article:first-child {
+  float: left;
+}
+.blog article:last-child {
+  float: right;
+}
+.blog .text {
+  padding: 40px;
+}
+.blog h3 {
+  font-size: 2rem;
+}
+.blog p {
+  font-size: 1.2rem;
+  padding: 10px 0;
+}
+.blog .btnGreen:hover {
+  background: var(--black);
+  border: 2px solid var(--white);
+  color: var(--white);
+}
