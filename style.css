@@ -259,3 +259,54 @@ footer p {
   color: var(--black);
   font-weight: 300;
 }
+/***************
+responsive
+***************/
+@media(max-width: 767px) {
+  nav .logo {
+    float: none;
+    display: block;
+    width: 180px;
+    margin: auto;
+  }
+  nav ul {
+    float: none;
+    width: 80%;
+    margin: 25px auto;
+  }
+  nav ul li {
+    margin-left: 6%;
+  }
+  header div {
+    padding: 120px 0;
+  }
+  header h1 {
+    font-size: 4rem;
+  }
+  header p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+  .modeli article {
+    width: 100%;
+    float: none;
+    padding: 20px;
+  }
+  .modeli article:nth-child(1),
+  .modeli article:nth-child(3) {
+    border-right: none;
+  }
+  .modeli article:nth-child(1),
+  .modeli article:nth-child(2) {
+    border-bottom: none;
+  }
+  .blog article {
+    width:100%;
+  }
+  .blog article:first-child {
+    float: none;
+  }
+  .blog article:last-child {
+    float: none;
+  }
+}
