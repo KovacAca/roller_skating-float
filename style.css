@@ -77,6 +77,9 @@ h2 {
   content: '';
   clear: both;
 }
+ul {
+  list-style: none;
+}
 /***************
 header
 ***************/
@@ -231,4 +234,28 @@ blog
   background: var(--black);
   border: 2px solid var(--white);
   color: var(--white);
+}
+/***************
+footer
+***************/
+footer {
+  background: var(--accents);
+  text-align: center;
+  padding: 50px 0;
+  margin-top: 50px;
+}
+footer ul li {
+  display: inline-block;
+  margin: 10px;
+}
+footer a {
+  color: var(--black);
+  font-size: 1.5rem;
+}
+footer a:hover {
+  color: var(--headings);
+}
+footer p {
+  color: var(--black);
+  font-weight: 300;
 }
